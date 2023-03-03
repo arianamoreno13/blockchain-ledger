@@ -179,7 +179,7 @@ if st.button("Add Block"):
     )
 
     pychain.add_block(new_block)
-    st.balloons()
+    st.snow()
 
 ################################################################################
 # Streamlit Code (continues)
