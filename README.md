@@ -5,11 +5,7 @@
 
 ## Description
 
-This project was executed in jupyter lab using python libraries to read the CSV file and to create the machine learning algorithm. This project aims to make a bot that will make good trades based on machine learning algorithms.
 
-Algorithmic trading is the use of algorithms to automate the decision-making process of buying and selling financial instruments in financial markets. It involves developing mathematical models that analyze market data and use that information to make trades. In this model we use Scikit-learn. Scikit-learn is a Python library for machine learning that can be used for developing and testing algorithmic trading models.
-
-The importance of algorithmic trading for data analysts lies in its ability to handle large amounts of data in real-time and make trades faster and more accurately than a human trader could. Algorithmic trading can also help to remove emotions and biases from the trading process, leading to more consistent and profitable results.
 
 ## Table of Contents
 
@@ -27,7 +23,7 @@ The importance of algorithmic trading for data analysts lies in its ability to h
 
 ## 1. Installation
 
-If you would like to clone the repository, type "git clone https://github.com/arianamoreno13/algorithmic-trading.git". In your terminal, with the conda dev environment activated, install the following packages and dependencies before running the algorithmic trading bot. To understand how to install these, refer to the Usage. 
+If you would like to clone the repository, type "git clone https://github.com/arianamoreno13/blockchain-ledger.git". In your terminal, with the conda dev environment activated, install the following packages and dependencies before running the algorithmic trading bot. To understand how to install these, refer to the Usage. 
 
 ## 2. Usage
 
@@ -39,16 +35,11 @@ If you would like to clone the repository, type "git clone https://github.com/ar
 
 - streamlit  -
 
-- scikit-learn - version 1.2 - Tools for data analysis
+- datetime - 
 
-- NumPy - version 1.24.0- Provides tools when dealing with classification with imbalanced classes
-
+-hashlib -
  
-from dataclasses import dataclass
-from typing import Any, List
-import datetime as datetime
-import pandas as pd
-import hashlib
+
 
 ## 3. License
     MIT License
