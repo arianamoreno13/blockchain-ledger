@@ -1,5 +1,4 @@
-# blockchain-ledger
-# Algorithmic Trading Bot
+# Blockchain Ledger
 
 ![license badge](https://shields.io/badge/license-mit-blue)
 
