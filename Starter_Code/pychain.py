@@ -1,8 +1,4 @@
 # PyChain Ledger
-################################################################################
-# You’ll make the following updates to the provided Python file for this
-# Challenge, which already contains the basic `PyChain` ledger structure that
-# you created throughout the module:
 
 # Step 1: Create a Record Data Class
 # * Create a new data class named `Record`. This class will serve as the
@@ -163,11 +159,10 @@ pychain = setup()
 # application. Create these input areas to capture the sender, receiver, and
 # amount for each transaction that you’ll store in the `Block` record.
 # To do so, complete the following steps:
-# 1. Delete the `input_data` variable from the Streamlit interface.
-# 2. Add an input area where you can get a value for `sender` from the user.
-# 3. Add an input area where you can get a value for `receiver` from the user.
-# 4. Add an input area where you can get a value for `amount` from the user.
-# 5. As part of the Add Block button functionality, update `new_block` so that `Block` consists of an attribute named `record`, which is set equal to a `Record` that contains the `sender`, `receiver`, and `amount` values. The updated `Block`should also include the attributes for `creator_id` and `prev_hash`.
+# 1. Add an input area where you can get a value for `sender` from the user.
+# 2. Add an input area where you can get a value for `receiver` from the user.
+# 3. Add an input area where you can get a value for `amount` from the user.
+# 4. As part of the Add Block button functionality, update `new_block` so that `Block` consists of an attribute named `record`, which is set equal to a `Record` that contains the `sender`, `receiver`, and `amount` values. The updated `Block`should also include the attributes for `creator_id` and `prev_hash`.
 
 # Add an input area where you can get a value for `sender` from the user.
 input_sender = st.text_input("sender")
@@ -189,7 +184,7 @@ if st.button("Add Block"):
         prev_hash=prev_block_hash,
         record=Record(input_sender, input_receiver, input_amount)
     )
-    
+
     pychain.add_block(new_block)
     st.balloons()
 
