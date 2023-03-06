@@ -4,7 +4,14 @@
 
 ## Description
 
+This project creates a basic blockchain and utilizes Streamlit for user interaction. Upon launching the application, the initial interface appears as follows: 
+![pychain app](photos\pychain-1.png)
 
+After launching the application, users can input values into the "Sender", "Receiver", and "Amount" fields. Once all fields have been filled, users can click on the "Add Block" button:
+![pychain app](photos\pychain-2.png)
+
+The entered information will then be displayed on "The PyChain Ledger", which can be viewed below:
+![pychain app](photos\pychain-3.png)
 
 ## Table of Contents
 
@@ -22,22 +29,21 @@
 
 ## 1. Installation
 
-If you would like to clone the repository, type "git clone https://github.com/arianamoreno13/blockchain-ledger.git". In your terminal, with the conda dev environment activated, install the following packages and dependencies before running the algorithmic trading bot. To understand how to install these, refer to the Usage. 
+If you would like to clone the repository, type "git clone https://github.com/arianamoreno13/blockchain-ledger.git". In your terminal, with the Anaconda dev environment activated, install the following packages and dependencies before running the application. To understand how to install these, refer to the Usage
+
+Pandas (1.3.5) - Data analysis
+
+Streamlit (1.18.1) - Web interface
 
 ## 2. Usage
 
-- csv - Used to store data
+After cloning the repository locally, you'll need to have the packages listed in Installation installed on your machine. To do so, you'll need to activate your conda dev environment and running the following commands:
 
-- VS Code - Used to create and share documents that contain live code, equations, visualizations and narrative text.
+  ```
+  pip install pandas
+  pip install streamlit
 
-- pandas - For data analysis.
-
-- streamlit  -
-
-- datetime - 
-
--hashlib -
- 
+  ```
 
 
 ## 3. License
@@ -60,8 +66,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## 6. Deployment
 
-- There is currently no live deployment of this notebook on a common server, but the user has the ability to run this notebook locally on their machine via:
-    - Visual Studio Code: Run code then click on link in terminal to deploy app 
+There is currently no live deployment of this notebook on a common server, but the user has the ability to run this notebook locally on their machine via:
+    - Visual Studio Code: navigate to the root directory (terminal) and type "streamlit run pychain.py". This should open the app automatically, but if it doesn't, go to localhost 8501 in your browser. Make sure you are in the dev enviroment. 
+
 
 ## 7. Contact
 
@@ -69,9 +76,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## 8. Results
 
+This is how the app should look and how you can make it run. 
 
-
-![pychain gif](streamlit-pychain_AdobeExpress.jpg)
+![pychain gif](photos\streamlit-pychain_AdobeExpress.jpg)
 
 
 
