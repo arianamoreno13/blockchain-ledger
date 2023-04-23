@@ -6,15 +6,15 @@
 
 This project creates a basic blockchain and utilizes Streamlit for user interaction. Upon launching the application, the initial interface appears as follows: 
 
-![pychain app](photos\pychain-1.png)
+![pychain app](photos/pychain-1.png)
 
 After launching the application, users can input values into the "Sender", "Receiver", and "Amount" fields. Once all fields have been filled, users can click on the "Add Block" button:
 
-![pychain app](photos\pychain-2.png)
+![pychain app](photos/pychain-2.png)
 
 The entered information will then be displayed on "The PyChain Ledger", which can be viewed below:
 
-![pychain app](photos\pychain-3.png)
+![pychain app](photos/pychain-3.png)
 
 ## Table of Contents
 
